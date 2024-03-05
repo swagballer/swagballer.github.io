@@ -41,6 +41,8 @@ section h2 {
     color: #333;
 }
 
+
+
 .popup-container {
     display: none;
     position: fixed;
@@ -83,4 +85,15 @@ section h2 {
     height: 100%;
     border-radius: 5px; /* Add rounded corners if desired */
     /* Add any other styling properties */
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 40px; /* Adjust the size of the cursor image */
+    height: 40px;
+    background: url('bow.png') no-repeat center center; /* Replace with the path to your cursor image */
+    background-size: cover;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
 }
