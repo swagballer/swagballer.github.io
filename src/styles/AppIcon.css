@@ -1,0 +1,30 @@
+.app-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.app-icon .icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.app-icon .title {
+  margin-top: -14px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  transition: color 0.2s ease;
+
+  /* highlight effect when hovering */
+  &:hover {
+    color: #00f;
+    font-weight: bold;
+  }
+}
