@@ -5,10 +5,7 @@ import closeIcon from '../assets/icons/close-icon.png';
 
 const Window = ({ title, content, onClose, position }) => {
   return (
-    <Draggable
-      defaultPosition={{ x: position.x, y: position.y }}
-      handle=".window-header"
-    >
+    <Draggable defaultPosition={{ x: position.x, y: position.y }} handle=".window-header">
       <div className="window">
         <div className="window-header">
           <span className="window-title">{title}</span>
@@ -22,6 +19,7 @@ const Window = ({ title, content, onClose, position }) => {
       </div>
     </Draggable>
   );
+
 };
 
 export default Window;

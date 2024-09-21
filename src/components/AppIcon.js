@@ -6,7 +6,9 @@ const AppIcon = ({ title, icon, onClick, style }) => {
   return (
     <div className="app-icon" onClick={onClick} style={style}>
       <img src={icon} alt={title} className="icon" />
-      <span className="title">{title}</span>
+      <div className=".hvr-pulse-grow">
+        <span className="title">{title}</span>
+      </div>
     </div>
   );
 };

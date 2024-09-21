@@ -1,0 +1,38 @@
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.contact-icon p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-description {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
