@@ -8,6 +8,16 @@ import forwardMailIcon from '../assets/icons/forwardMailIcon.gif';
 import messageFriend from '../assets/icons/messagefriend.gif';
 import rankUser from '../assets/icons/rankUserIcon.gif';
 import sendMail from '../assets/icons/sendMailIcon.gif';
+import nina from '../assets/images/friends/nina.jpeg';
+import quinn from '../assets/images/friends/quinn.JPG';
+import fernando from '../assets/images/friends/fernando.JPG';
+import alyssa from '../assets/images/friends/alyssa.JPG';
+import summer from '../assets/images/friends/summer.png';
+import izzy from '../assets/images/friends/izzy.png';
+import tessza from '../assets/images/friends/tessza.png';
+import deeya from '../assets/images/friends/deeya.png';
+import sarahpfp from '../assets/images/friends/sarahpfp.jpeg';
+
 
 const AboutWindow = () => {
   return (
@@ -20,9 +30,9 @@ const AboutWindow = () => {
         </header>
 
         <div class="profile-picture-container">
-          <img class="profile-pic" src="pictures/sarah-pfp.jpg" alt="Sarah's profile picture." />
+          <img class="profile-pic" src={sarahpfp} alt="Sarah's profile picture." />
 
-          <p class="personal-msg"><b>":D"</b></p>
+          <p class="personal-msg"><b>"Ball is life."</b></p>
 
           <ul class="gender-age">
             {/* <li>Male</li> */}
@@ -71,9 +81,8 @@ const AboutWindow = () => {
               <tr>
                 <th class="sidebar-table-header" scope="row">General</th>
                 <td class="sidebar-table-data">
-                  <p>Basketball, Weight Lifting, Crosswords, Movies, Cooking, 
-                    Travel, Music, Reading, Rock Climbing, Pickleball, History, 
-
+                  <p>cooking, movies, crosswords, film photography, music, reading,
+                    weight lifting, travel, rock climbing, pickleball
                   </p>
                 </td>
               </tr>
@@ -81,7 +90,7 @@ const AboutWindow = () => {
               <tr>
                 <th class="sidebar-table-header" scope="row">Music</th>
                 <td class="sidebar-table-data">
-                  Check out my <a href="https://www.last.fm/user/qwert10280" target="_blank" rel="noopener noreferrer">last.fm</a>!
+                  check out my <a href="https://www.last.fm/user/qwert10280" target="_blank" rel="noopener noreferrer">last.fm</a>!
                 </td>
               </tr>
 
@@ -107,9 +116,20 @@ const AboutWindow = () => {
               <tr>
                 <th class="sidebar-table-header" scope="row">Technology</th>
                 <td class="sidebar-table-data">
-                  <p>Full stack software engineering, machine learning, artificial intelligence, 
-                    data science, creative coding, computational social science, 
-                    programming for social good, product management
+                  <p>creative coding, computational social science, programming for social good, 
+                    image processing, computer vision, natural language processing, 
+                    human computer interaction, data science, data visualization
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <th class="sidebar-table-header" scope="row">Other Academic Interests</th>
+                <td class="sidebar-table-data">
+                  <p>History, Urban Planning, Microeconomics and its applications, Inequality and Oppression, 
+                    Critical Theory, Art History, Labor, Psychology, Arts and Culture, 
+                    Sociology, Pedagogy, Public Policy, Gender and Queer Studies, Cinema 
+                    Studies
                   </p>
                 </td>
               </tr>
@@ -195,8 +215,8 @@ const AboutWindow = () => {
                     <li><strong>Student status:</strong> Student</li>
                     <li><strong>Degree:</strong> Bachelor's Degree</li>
                     <li><strong>Major:</strong> Computer Science + Economics</li>
-                    <li><strong>Clubs:</strong> Montage Literary Arts Journal - Creative Director, Illinois Business Consulting, 
-                      Data Analyst for Illinois Women’s Basketball, Pickleball Club</li>
+                    <li><strong>Clubs:</strong> <a href="https://www.montageartsjournal.com/" target="_blank">Montage Literary Arts Journal</a> - Creative Director, 
+                    Data Analyst for Illinois Women’s Basketball, Pickleball Club, <a href="https://giesbusiness.illinois.edu/experience/experiential-learning/illinois-business-consulting" target="_blank">Illinois Business Consulting</a></li>
                   </ul>
                 </th>
                 <td class="sidebar-table-data">2021 to 2025</td>
@@ -217,12 +237,12 @@ const AboutWindow = () => {
         </section>
 
         <section class="blog">
-          <p><b>Sarah's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
+          <p><b>Sarah's Latest Blog Entries</b> [<a href="#">Subscribe to this Blog</a>]</p>
+          <p>just made delicious galbi for dinner (<a href="#">view more</a>) </p>
           <p>i can't believe we won in overtime against nebraska!!! (<a href="#">view more</a>) </p>
-          <p>In Stores Today - MySpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
-          <p>MySpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
-          <p>sf was super fun but i'm so happy to be home :p (<a href="#">view more</a>) </p>
-          <p>just finished my internship demo i'm gonna miss salesforce tower sm (<a href="#">view more</a>)</p>
+          <p>came home and finally got to meet my newborn nephew :) (<a href="#">view more</a>) </p>
+          <p>so grateful to my team for a fun internship at salesforce! (<a href="#">view more</a>)</p>
+          <p>baker beach sunset was so pretty tonight (<a href="#">view more</a>) </p>
           {/* <p>[<a href="#">View All Blog Entries</a>]</p> */}
         </section>
 
@@ -232,18 +252,19 @@ const AboutWindow = () => {
           </header>
 
           <h3>About me:</h3>
-          <p>I'm here to help you with <b>MySpace</b>. Send me a message if you're confused by anything. <span class="info">Before asking me a question, please check the <a href="#">FAQ</a> to see if your question has already been answered.</span></p>
+          <p>Hi, I’m Sarah! My parents immigrated from China in the 90s and decided to raise their family in Chicago. Growing up in a city like Chicago meant there was always something new to explore whether it was the diverse neighborhoods, food, or cultures. I love looking the skyline from Prom Point during sunset, eating a single cheeseburger with fries from Small Cheval's and walking to Jeni's for mint chocolate chip ice cream after, and spending an entire day walking around the Art Institute. That early exposure to different perspectives and experiences shaped how I see the world.</p>
 
-          <p>I may have been on your friend list when you signed up. If you don't want me to be, click "Edit Friends" and remove me!</p>
+          <p>One of my core beliefs is to learn as much as I can about the world and the people in it. Curiosity has always been my north star, guiding me to take on new challenges, question everything, and experience as much as I can. It has led me to pick up a variety of new hobbies and skills such as solving puzzles like Rubik’s cubes and crosswords, capturing moments with my film camera, and experimenting with new recipes in the kitchen. This year, I’d like to learn woodworking, fashion design, and deejaying!</p>
 
-          <p><strong>Also, feel free to tell me what features you want to see on MySpace and if I think it's cool, we'll do it!</strong></p>
+          <p>I’m currently studying computer science and economics at the University of Illinois. My passion for technology is broad and multifaceted. I’m interested in fields like image processing, computer vision, natural language processing, and human-computer interaction, technologies that allow us to engage with the world in new ways. Data science and computational social science excite me because they empower us to make sense of complex information and drive meaningful change. I find creative coding and data visualization to be exciting outlets that allow me to get creative through my code and explore visual expression. At the core of all my tech interests is a desire to program for social good, using technology as a tool for positive impact.</p>
 
-          <p>If you want a tutorial on HTML/designing your page, check this out: <a href="#">Mack</a>!!</p>
+          <p>Beyond that, my academic journey is enriched by my curiosity for the social sciences and humanities. As a woman of color and daughter of immigrants, my lived experiences have deeply shaped my academic pursuits. I’m also interested in history, microeconomics, urban planning, and political science, particularly in how they can be applied to issues like inequality and oppression. Topics like critical theory, gender and queer studies, sociology, and public policy allow me to explore the structural challenges facing society today. I’m also captivated by art history, cultural studies, and cinema studies, as they offer unique lenses through which to understand the human experience.</p>
 
-          <p>Note: If you try to view my friends list you won't see all 24,000,000 million people. This was bogging down the system, so we made it only show 40 people. So you wont be able to see the friends on my list.</p>
+          <p>Outside of the classroom, I am involved in Montage Literature and Arts Journal as Creative Director, Illinois Business Consulting, the largest student-run, fee-based consulting organization in the US, Fighting Illini Women's Basketball as a data analyst, and Pickleball Club. I have also previously interned at Salesforce, where I enhanced encryption tools and features for customer's data security, and Nationwide, where I developed an internal training tool. Through internships, classes, and hands-on projects, I’ve had the opportunity to work on innovative software products, collaborate with talented teams, and solve real-world problems, all of which fuel my passion for combining technical skills with meaningful impact.</p>
 
-          <h3>Who I'd like to meet:</h3>
-          <p>I'd like to meet people who educate, inspire or entertain me... I have a few close friends I've known all my life. I'd like to make more. </p>
+          <p>Above all, I am most passionate about the relationships in my life. Life is lived in the small, everyday moments with my loved ones. I have learned the most from growing alongside the people I care about and finding ways to support, celebrate, and uplift each other. Love and empathy are at the heart of everything I do, and I’m grateful for the people in my life that taught me so.</p>
+
+          <p>At the end of the day, I believe in staying open to new opportunities, new stories, and new relationships. I’m excited to continue learning, growing, and connecting with others along the way in my next chapter.</p>
         </section>
 
         <section class="friends">
@@ -255,43 +276,43 @@ const AboutWindow = () => {
 
           <div class="friend-pic-container">
             <figure>
-              <figcaption><a href="#">MySpace<br/>Records</a></figcaption>
-              <img src="pictures/myspace-records.jpg" />
+              <figcaption><a href="#">nina</a></figcaption>
+              <img src={nina} alt="Nina" />
             </figure>
 
             <figure>
-              <figcaption><a href="#">Andi</a></figcaption>
-              <img src="pictures/andi.jpg" />
+              <figcaption><a href="#">Fernando</a></figcaption>
+              <img src={fernando} alt="Fernando" />
             </figure>
 
             <figure>
-              <figcaption><a href="#">abraham</a></figcaption>
-              <img src="pictures/abraham.jpg" />
+              <figcaption><a href="#">A-L-Y-S-S-A</a></figcaption>
+              <img src={alyssa} alt="Alyssa" />
             </figure>
 
             <figure>
-              <figcaption><a href="#">tanner</a></figcaption>
-              <img src="pictures/tanner.jpg" />
+              <figcaption><a href="#">Summer</a></figcaption>
+              <img src={summer} alt="Summer" />
             </figure>
 
             <figure>
-              <figcaption><a href="#">Tams</a></figcaption>
-              <img src="pictures/tams.jpg" />
+              <figcaption><a href="#">tessza!!</a></figcaption>
+              <img src={tessza} />
             </figure>
 
             <figure>
-              <figcaption><a href="#">MySpace<br/>Records</a></figcaption>
-              <img src="pictures/myspace-records-2.jpg" />
+              <figcaption><a href="#">izzy :p</a></figcaption>
+              <img src={izzy} />
             </figure>
 
             <figure>
-              <figcaption><a href="#">J-e-n-n-i</a></figcaption>
-              <img src="pictures/jenni.jpg" />
+              <figcaption><a href="#">quinn</a></figcaption>
+              <img src={quinn} alt="Quinn" />
             </figure>
 
             <figure>
-              <figcaption><a href="#">MySpace<br/>Records</a></figcaption>
-              <img src="pictures/myspace-records-3.jpg" />
+              <figcaption><a href="#">deeya :3</a></figcaption>
+              <img src={deeya} />
             </figure>
           </div>
 

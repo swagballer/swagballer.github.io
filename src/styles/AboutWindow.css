@@ -60,6 +60,8 @@
     grid-area: 1/1;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 90px;
+    height: 120px;
   }
   
   .personal-msg {
@@ -299,6 +301,8 @@
   .friend-pic-container img {
     display: block;
     margin: auto;
+    width: 90px;
+    height: 120px;
   }
   
   .friends-list-link {
