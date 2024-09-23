@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae32e171.css",
-    "main.js": "/static/js/main.20c0f821.js",
+    "main.css": "/static/css/main.ea7dfe2b.css",
+    "main.js": "/static/js/main.6c4f78d8.js",
+    "static/media/summer.png": "/static/media/summer.b857fdfbe6a7c76d913f.png",
+    "static/media/izzy.png": "/static/media/izzy.16fd4114ca74744e5ba1.png",
+    "static/media/tessza.png": "/static/media/tessza.4dfc2e1f7a7deda61ef5.png",
+    "static/media/quinn.JPG": "/static/media/quinn.fe2ebfab014321125453.JPG",
+    "static/media/alyssa.JPG": "/static/media/alyssa.54968fc8b4d5f8c79ca1.JPG",
+    "static/media/fernando.JPG": "/static/media/fernando.baaf4c61a9390022bea1.JPG",
+    "static/media/deeya.png": "/static/media/deeya.9d81def72120c9cc5b02.png",
+    "static/media/sarahpfp.jpeg": "/static/media/sarahpfp.e0f053c499a626412581.jpeg",
+    "static/media/nina.jpeg": "/static/media/nina.067fc2340a79cc4d6b5f.jpeg",
     "static/media/Background.jpg": "/static/media/Background.51ab395f89f7bd21126f.jpg",
     "static/media/linkedin-icon.png": "/static/media/linkedin-icon.8a82690a604f71976d02.png",
     "static/media/lastfm-icon.png": "/static/media/lastfm-icon.5dcd0527b33fde2d1ab4.png",
     "static/media/github-icon.png": "/static/media/github-icon.f8ef9e5b47d5c3250367.png",
     "index.html": "/index.html",
-    "main.ae32e171.css.map": "/static/css/main.ae32e171.css.map",
-    "main.20c0f821.js.map": "/static/js/main.20c0f821.js.map"
+    "main.ea7dfe2b.css.map": "/static/css/main.ea7dfe2b.css.map",
+    "main.6c4f78d8.js.map": "/static/js/main.6c4f78d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae32e171.css",
-    "static/js/main.20c0f821.js"
+    "static/css/main.ea7dfe2b.css",
+    "static/js/main.6c4f78d8.js"
   ]
 }
